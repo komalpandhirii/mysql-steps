@@ -1,0 +1,48 @@
+DATA TYPES;
+
+varchar()
+enum()
+int
+bigInt
+float
+
+TIMESTAMP  == Format YYYY-MM-DD hh:mm:ss.
+
+----------------------------------------------------------------------------
+
+
+For terminal 
+
+start with mysql -u root -p;
+
+create database (database Name)
+
+show databases;
+
+create table city(id int aut_increment primary key, Name varchar(255));
+
+-------------------------------------------
+insert into students(Name,Age,course,city) value("Chanchal",19,2,"Mumbai"),("Komal",24,3,"Jaipur");
+
+insert into city (Name) value("Javascript"),("Python"),("C++");
+-------------------------------------------
+
+to change datatype in mysql table ;
+
+alter table students modify column city int;
+
+------------------------------------------
+
+To add column in table;
+
+alter table (table_name)
+add column (column_name) (DATATYPE)
+
+
+
+
+
+
+
+
+
